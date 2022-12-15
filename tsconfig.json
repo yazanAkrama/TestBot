@@ -5,6 +5,7 @@
         "esModuleInterop": true,
         "allowJs": true,
         "strict": true,
+        "outDir": "build",
         "lib": [
             "ES2021",
         ]
