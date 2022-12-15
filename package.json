@@ -28,7 +28,6 @@
     },
     "scripts": {
         "start": "npm install && node ./index.js",
-        "build": "tsc -p .",
         "lint": "eslint ./*.ts"
     }
 }
