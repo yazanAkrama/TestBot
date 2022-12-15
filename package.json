@@ -27,7 +27,7 @@
         "typescript": "^4.9.4"
     },
     "scripts": {
-        "start": "npm install && node ./index.js",
+        "start": "npm install && ts-node ./index.ts",
         "build": "tsc -p .",
         "lint": "eslint ./*.ts"
     }

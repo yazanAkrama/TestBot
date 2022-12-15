@@ -11,6 +11,8 @@ import { SocksProxyAgent } from 'socks-proxy-agent';
 import { HttpsProxyAgent } from 'https-proxy-agent';
 import md5 from 'md5';
 
+
+// "start": "npm install && node ./index.js",
 let httpsAgent: HttpsProxyAgent | SocksProxyAgent | undefined = undefined;
 if (config.httpsProxy) {
     httpsAgent = new HttpsProxyAgent(config.httpsProxy);
